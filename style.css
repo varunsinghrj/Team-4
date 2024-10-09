@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 35px;
+}
+
+.logo i{
+    color: #0eb582;
+    font-size: 40px;
+}
+
+.a{
+    font-size: 30px;
+    font-family: 'Nunito';
+    font-weight: bold;
+   
+}
+
+.query{
+    width: 200px;
+    height: 120px;
+    background-color: #ffffff30;
+    margin-left: 88.5%;
+    /* padding: 10px; */
+
+    position: fixed;
+    right: -100%;
+    
+}
+
+.student{
+    padding: 0 10px;
+}
+
+.student a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Nunito';
+
+    
+}
+
+.close{
+    padding-left: 85%;
+    color: rgb(113, 15, 15);
+
+    
+}
+
+.b{
+    font-size: 25px;
+    font-family: 'Nunito';
+    font-weight: bold;
+    color: #0eb582;
+}
+
+header{
+    padding: 20px 0;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item ul{
+    display: flex;
+    padding-top: 10px;
+}
+
+.nav-item ul a{
+    text-decoration: none;
+}
+
+.nav-item ul a li{
+    list-style: none;
+    padding-left: 30px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Nunito';
+    font-weight: bold;
+}
+
+.home-img img{
+    width: 100%;
+    height: 868px;
+}
+
+.abcd{
+    padding-bottom: 10px;
+}
+
+.fa-brands{
+    color: #0eb582;
+    font-size: 30px;
+    padding-right: 6px;
+}
+
+.social-logo{
+    margin-left: 30px;
+    padding-left: 10px;
+}
+
+.social{
+    padding-left: 1600px;
+    padding-top: 40px;
+    background-color:  #f0fdfa;
+    height: 150px;
+}
+
+
+.con img{
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+    transition: all 0.8s;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.483);
+}
+
+.con img:hover{
+    transform: scale(1.1);
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Nunito';
+    padding-top: 50px;
+
+}
+
+.img h1{
+    font-size: 30px;
+    font-family: 'Nunito';
+    text-align: center;
+    font-weight: bold;
+ 
+}
+
+.one{
+    padding-top: 100px;
+}
+
+.two{
+    padding-top: 70px;
+}
+
+.one h1{
+    padding-top: 20px;
+}
+
+.two h1{
+    padding-top: 20px;
+}
+
+
+
+.one{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.two{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+

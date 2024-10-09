@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Form</title>
+    <style>
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.student-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    margin: 10px 0;
+}
+
+strong {
+    color: #333;
+}
+
+.student-card{
+    position: fixed;
+    width: 300px;
+    height: 400px;
+}
+
+
+    </style>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body>
+    <div class="form-container">
+        <form>
+            <h2>User Information</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="id">ID:</label>
+            <input type="text" id="id" name="id" required>
+            
+            <label for="batch">Batch:</label>
+            <input type="text" id="batch" name="batch" required>
+            
+            <label for="stream">Stream:</label>
+            <input type="text" id="stream" name="stream" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="student-card">
+        <h2>Student Details</h2>
+        <p><strong>Name:</strong> <span> Alice Smith </span></p>
+        <p><strong>ID:</strong> <span> 001 </span></p>
+        <p><strong>Batch:</strong> <span> 2023-A </span></p>
+        <p><strong>Stream:</strong> <span> Science </span></p>
+        <p><strong>Attendance:</strong> <span> 95% </span></p>
+    </div>
+</body>
+</html>
